@@ -10,9 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#1E40AF',
-          light: '#3B82F6',
-          dark: '#1E3A8A',
+          DEFAULT: '#F5A3C7', // Pastel Pink
+          light: '#FFC1E0',
+          dark: '#E88BB5',
         },
         secondary: {
           DEFAULT: '#FFFFFF',
@@ -20,9 +20,19 @@ const config: Config = {
           dark: '#F3F4F6',
         },
         accent: {
-          DEFAULT: '#93C5FD',
-          light: '#DBEAFE',
-          dark: '#60A5FA',
+          DEFAULT: '#B5E7D3', // Pastel Mint
+          light: '#D4F4E7',
+          dark: '#9DDCC1',
+        },
+        mint: {
+          DEFAULT: '#B5E7D3',
+          light: '#D4F4E7',
+          dark: '#9DDCC1',
+        },
+        pink: {
+          DEFAULT: '#F5A3C7',
+          light: '#FFC1E0',
+          dark: '#E88BB5',
         },
       },
       fontFamily: {

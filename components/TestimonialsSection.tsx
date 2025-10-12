@@ -32,7 +32,7 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-br from-blue-50 to-white">
+    <section id="testimonials" className="py-20 bg-gradient-to-br from-pink-50 to-mint-50">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">

@@ -85,7 +85,7 @@ export default function ServicesSection() {
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                   {service.description}
                 </p>
-                <div className="pt-4 border-t border-blue-100">
+                <div className="pt-4 border-t border-mint-200">
                   <span className="text-2xl font-bold text-primary">
                     {service.price}
                   </span>
@@ -102,14 +102,14 @@ export default function ServicesSection() {
               <Link
                 key={index}
                 href="/emergency-care"
-                className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group block cursor-pointer hover:border-red-300"
+                className="bg-gradient-to-br from-mint-50 to-white p-6 rounded-xl border border-mint-200 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group block cursor-pointer hover:border-pink-300"
               >
                 {cardContent}
               </Link>
             ) : (
               <div
                 key={index}
-                className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group"
+                className="bg-gradient-to-br from-mint-50 to-white p-6 rounded-xl border border-mint-200 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group"
               >
                 {cardContent}
               </div>

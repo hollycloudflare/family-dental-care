@@ -40,7 +40,7 @@ export default function EmergencyCarePage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mb-12">
+            <div className="bg-mint-50 border-l-4 border-pink-400 p-6 rounded-lg mb-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">What Are Emergency Dental Services?</h2>
               <p className="text-gray-700 leading-relaxed">
                 Emergency dental services provide immediate treatment for sudden and severe oral health issues like severe toothaches, knocked-out teeth, broken teeth, and dental abscesses or infections. These services are crucial to relieve pain, stop bleeding, save a tooth, and prevent life-threatening complications from spreading infections.
@@ -138,19 +138,17 @@ export default function EmergencyCarePage() {
                 <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-3xl font-bold text-red-600">3</span>
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Follow Instructions</h3>
                 <p className="text-gray-600 text-sm">Our team will guide you on next steps</p>
               </div>
             </div>
 
             {/* Contact Card */}
-            <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-2xl p-8 shadow-xl">
+            <div className="bg-gradient-to-br from-pink-400 to-pink-500 text-white rounded-2xl p-8 shadow-xl">
               <h3 className="text-2xl font-bold mb-6 text-center">Emergency Contact Information</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="flex items-start gap-3">
                   <Phone className="flex-shrink-0 mt-1" size={24} />
                   <div>
-                    <div className="font-semibold mb-1">Emergency Line</div>
                     <a href="tel:0820123123" className="hover:underline">0820.123.123</a>
                   </div>
                 </div>
@@ -179,7 +177,7 @@ export default function EmergencyCarePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Emergency Care Pricing</h2>
-            <div className="bg-blue-50 rounded-2xl p-8 inline-block">
+            <div className="bg-mint-50 rounded-2xl p-8 inline-block">
               <div className="text-5xl font-bold text-primary mb-2">$150 SGD</div>
               <p className="text-gray-600">Initial Emergency Consultation</p>
               <p className="text-sm text-gray-500 mt-2">Additional treatment costs will be discussed based on your specific needs</p>

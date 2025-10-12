@@ -49,7 +49,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section id="home" className="relative bg-gradient-to-br from-blue-50 to-white pt-8 pb-24 overflow-hidden">
+    <section id="home" className="relative bg-gradient-to-br from-pink-50 to-mint-50 pt-8 pb-24 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image

@@ -81,7 +81,7 @@ export default function ContactSection() {
             </div>
 
             {/* Emergency Notice */}
-            <div className="bg-blue-50 border-l-4 border-primary p-6 rounded-lg">
+            <div className="bg-mint-50 border-l-4 border-primary p-6 rounded-lg">
               <h4 className="font-bold text-gray-900 mb-2">Emergency Dental Care</h4>
               <p className="text-gray-600">
                 For dental emergencies outside of regular hours, please call our emergency line. We're here to help when you need us most.
