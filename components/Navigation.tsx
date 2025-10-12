@@ -58,6 +58,9 @@ export default function Navigation() {
             <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-primary transition-colors font-medium">
               Contact
             </button>
+            <a href="/emergency-care" className="text-red-600 hover:text-red-700 transition-colors font-semibold">
+              Emergency Care
+            </a>
             <button 
               onClick={() => scrollToSection('home')}
               className="bg-primary text-white px-6 py-2 rounded-full hover:bg-primary-dark transition-colors font-medium"
@@ -92,6 +95,9 @@ export default function Navigation() {
               <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-primary transition-colors font-medium text-left">
                 Contact
               </button>
+              <a href="/emergency-care" className="text-red-600 hover:text-red-700 transition-colors font-semibold text-left">
+                Emergency Care
+              </a>
               <button 
                 onClick={() => scrollToSection('home')}
                 className="bg-primary text-white px-6 py-2 rounded-full hover:bg-primary-dark transition-colors font-medium text-center"

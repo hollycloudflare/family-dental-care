@@ -71,10 +71,15 @@ export default function ServicesSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon
+            const isEmergency = service.title === 'Emergency Dental Care'
+            const CardWrapper = isEmergency ? 'a' : 'div'
+            const cardProps = isEmergency ? { href: '/emergency-care' } : {}
+            
             return (
-              <div
+              <CardWrapper
                 key={index}
-                className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group"
+                {...cardProps}
+                className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group block"
               >
                 <div className="bg-primary text-white w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Icon size={28} />
@@ -90,7 +95,12 @@ export default function ServicesSection() {
                     {service.price}
                   </span>
                 </div>
-              </div>
+                {isEmergency && (
+                  <div className="mt-4 text-sm text-red-600 font-semibold">
+                    Click for more details →
+                  </div>
+                )}
+              </CardWrapper>
             )
           })}
         </div>

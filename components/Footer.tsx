@@ -76,7 +76,11 @@ export default function Footer() {
               <li>Dental Implants</li>
               <li>Orthodontics</li>
               <li>Cosmetic Dentistry</li>
-              <li>Emergency Care</li>
+              <li>
+                <a href="/emergency-care" className="hover:text-white transition-colors">
+                  Emergency Care
+                </a>
+              </li>
             </ul>
           </div>
 
