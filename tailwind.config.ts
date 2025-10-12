@@ -34,6 +34,11 @@ const config: Config = {
           light: '#FFC1E0',
           dark: '#E88BB5',
         },
+        teal: {
+          DEFAULT: '#2C7A7B', // Blue-green for text
+          light: '#4FD1C5',
+          dark: '#234E52',
+        },
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
