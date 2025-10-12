@@ -7,49 +7,49 @@ const services = [
     icon: Stethoscope,
     title: 'General Checkup & Cleaning',
     description: 'Comprehensive dental examination and professional teeth cleaning to maintain optimal oral health.',
-    price: '250 RON'
+    price: '$80 SGD'
   },
   {
     icon: Sparkles,
     title: 'Teeth Whitening',
     description: 'Professional whitening treatment for a brighter, more confident smile.',
-    price: '800 RON'
+    price: '$350 SGD'
   },
   {
     icon: Shield,
     title: 'Dental Implants',
     description: 'Permanent tooth replacement solution that looks and functions like natural teeth.',
-    price: 'From 2,500 RON'
+    price: 'From $2,500 SGD'
   },
   {
     icon: Heart,
     title: 'Root Canal Treatment',
     description: 'Save infected teeth with our gentle and effective root canal therapy.',
-    price: '600 RON'
+    price: '$800 SGD'
   },
   {
     icon: Scissors,
     title: 'Orthodontics (Braces)',
     description: 'Straighten your teeth with modern orthodontic solutions including traditional and clear braces.',
-    price: 'From 4,000 RON'
+    price: 'From $4,500 SGD'
   },
   {
     icon: Smile,
     title: 'Cosmetic Dentistry',
     description: 'Enhance your smile with veneers, bonding, and other cosmetic procedures.',
-    price: 'From 1,200 RON'
+    price: 'From $1,200 SGD'
   },
   {
     icon: Baby,
     title: 'Pediatric Dentistry',
     description: 'Specialized dental care for children in a friendly and comfortable environment.',
-    price: '200 RON'
+    price: '$60 SGD'
   },
   {
     icon: AlertCircle,
     title: 'Emergency Dental Care',
     description: 'Immediate care for dental emergencies, available when you need us most.',
-    price: '300 RON'
+    price: '$150 SGD'
   }
 ]
 
