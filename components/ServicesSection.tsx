@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { Smile, Sparkles, Stethoscope, Heart, Scissors, Baby, AlertCircle, Shield } from 'lucide-react'
 
 const services = [
@@ -72,15 +73,9 @@ export default function ServicesSection() {
           {services.map((service, index) => {
             const Icon = service.icon
             const isEmergency = service.title === 'Emergency Dental Care'
-            const CardWrapper = isEmergency ? 'a' : 'div'
-            const cardProps = isEmergency ? { href: '/emergency-care' } : {}
             
-            return (
-              <CardWrapper
-                key={index}
-                {...cardProps}
-                className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group block"
-              >
+            const cardContent = (
+              <>
                 <div className="bg-primary text-white w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Icon size={28} />
                 </div>
@@ -100,7 +95,24 @@ export default function ServicesSection() {
                     Click for more details →
                   </div>
                 )}
-              </CardWrapper>
+              </>
+            )
+            
+            return isEmergency ? (
+              <Link
+                key={index}
+                href="/emergency-care"
+                className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group block"
+              >
+                {cardContent}
+              </Link>
+            ) : (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group"
+              >
+                {cardContent}
+              </div>
             )
           })}
         </div>
