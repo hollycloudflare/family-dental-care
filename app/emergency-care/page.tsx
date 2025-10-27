@@ -3,13 +3,6 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import StickyBottomBar from '@/components/StickyBottomBar'
 import { AlertCircle, Phone, Clock, MapPin } from 'lucide-react'
-import Image from 'next/image'
-
-// R2 Image URL Helper
-const getR2ImageUrl = (path: string) => {
-  const R2_URL = process.env.NEXT_PUBLIC_R2_URL || 'https://pub-5d8d123f40ca4253a52ba12f2a715ff2.r2.dev'
-  return `${R2_URL}/${path}`
-}
 
 export default function EmergencyCarePage() {
   return (
