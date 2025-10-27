@@ -54,13 +54,11 @@ export default function EmergencyCarePage() {
               </p>
               
               {/* Emergency Services Image */}
-              <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden mt-6">
-                <Image
+              <div className="w-full rounded-lg overflow-hidden mt-6">
+                <img
                   src={getR2ImageUrl('emergency/ozkan-guner-rRgjO2Y1g1E-unsplash.jpg')}
                   alt="Emergency Dental Services"
-                  fill
-                  className="object-cover"
-                  priority
+                  className="w-full h-64 md:h-96 object-cover"
                 />
               </div>
             </div>
