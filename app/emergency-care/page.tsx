@@ -56,7 +56,7 @@ export default function EmergencyCarePage() {
               {/* Emergency Services Image */}
               <div className="w-full rounded-lg overflow-hidden mt-6">
                 <img
-                  src={getR2ImageUrl('emergency/ozkan-guner-rRgjO2Y1g1E-unsplash.jpg')}
+                  src="https://pub-5d8d123f40ca4253a52ba12f2a715ff2.r2.dev/emergency/ozkan-guner-rRgjO2Y1g1E-unsplash.jpg"
                   alt="Emergency Dental Services"
                   className="w-full h-64 md:h-96 object-cover"
                 />
