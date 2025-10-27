@@ -18,19 +18,8 @@ export default function EmergencyCarePage() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-red-50 to-white pt-32 pb-16 overflow-hidden">
-        {/* Hero Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={getR2ImageUrl('emergency/ozkan-guner-rRgjO2Y1g1E-unsplash.jpg')}
-            alt="Emergency Dental Care"
-            fill
-            className="object-cover opacity-30"
-            priority
-          />
-        </div>
-        
-        <div className="container mx-auto px-4 relative z-10">
+      <section className="bg-gradient-to-br from-red-50 to-white pt-32 pb-16">
+        <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center justify-center w-20 h-20 bg-red-100 rounded-full mb-6">
               <AlertCircle className="text-red-600" size={40} />
@@ -60,9 +49,20 @@ export default function EmergencyCarePage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-mint-50 border-l-4 border-pink-400 p-6 rounded-lg mb-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">What Are Emergency Dental Services?</h2>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-6">
                 Emergency dental services provide immediate treatment for sudden and severe oral health issues like severe toothaches, knocked-out teeth, broken teeth, and dental abscesses or infections. These services are crucial to relieve pain, stop bleeding, save a tooth, and prevent life-threatening complications from spreading infections.
               </p>
+              
+              {/* Emergency Services Image */}
+              <div className="relative w-full h-64 md:h-96 rounded-lg overflow-hidden mt-6">
+                <Image
+                  src={getR2ImageUrl('emergency/ozkan-guner-rRgjO2Y1g1E-unsplash.jpg')}
+                  alt="Emergency Dental Services"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
             </div>
 
             {/* Types of Emergencies */}
